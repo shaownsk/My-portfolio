@@ -51,9 +51,16 @@ nav li a{
     font-weight: 700;
 }
 /* banner-design */
-.banner{
-    background-image: url(images/header_bg.png);
+.hbg{
+    background-image: url(images/developer.png),url(images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: left top,right bottom;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 0px 15px 0px 180px;
+    text-align: center;
+    line-height: 30px;
+    justify-content: space-between;
 }
